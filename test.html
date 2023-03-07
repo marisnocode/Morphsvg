@@ -63,24 +63,6 @@ svg {
      </section>
 
 
-     <script>
-        clickElement = document.getElementById("cta");
-    tl = new TimelineMax({delay:1});
-    small = document.getElementById("small");
-    wtf = document.getElementById("wtf");
-    nox = document.getElementById("nox");
-      
-      TweenMax.to(nox, 300, {rotation:"360", ease:Linear.easeNone, repeat:-1});
-    large = document.getElementById("large");
-    big = document.getElementById("big");
-    tl.to(small, 4, {morphSVG: "#large", ease: Power4.easeOut})
-     tl.to(small, 4, {morphSVG: "#small", ease: Power4.easeOut})
-      tl.to(small, 4, {morphSVG: "#big", ease: Power4.easeOut})
-     tl.to(small, 4, {morphSVG: "#small", ease: Power4.easeOut})
-       tl.to(small, 4, {morphSVG: "#large", ease: Power4.easeOut});
      
-    
-    
-    </script>
     
   </body>
